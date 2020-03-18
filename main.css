@@ -62,7 +62,7 @@ h2 {
   box-shadow: 0 0 10px #fff;
   color: white;
   height: 225px;
-  margin: 5px 5px 5px 25px;
+  margin: 10px;
   text-align: center;
   width: 550px;
 }
@@ -74,9 +74,9 @@ h2 {
   box-shadow: 0 0 10px #fff;
   color: white;
   height: 225px;
-  margin: 5px;
+  margin: 10px;
   text-align: center;
-  outline: none;
+  width: 550px;
 }
 
 #purpleCard {
@@ -86,8 +86,9 @@ h2 {
   box-shadow: 0 0 10px #fff;
   color: white;
   height: 225px;
-  margin: 5px 25px 5px 5px;
+  margin: 10px;
   text-align: center;
+  width: 550px;
 }
 
 #whiteSpace {
@@ -110,6 +111,16 @@ footer {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 667px) {
+  #tealCard {
+    background-color:	#057bad;
+    border: 10px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #fff;
+    color: white;
+    height: 225px;
+    margin: 10px;
+    text-align: center;
+    width: 550px;
+  }
 }

@@ -1,15 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
+  width: 100%;
 }
 
 #navbar {
   background-color: #cc0033;
-  height: 50px;
+  height: 60px;
 }
 
 #navbarLogo {
   background-color: #303030;
-  padding: 10px;
+  height: 40px;
+  margin-bottom: 10px;
   width: 10%;
 }
 
@@ -19,8 +21,9 @@ body {
   border: none;
   height: 35px;
   left: 35%;
+  margin-bottom: 10px;
   right: 50%;
-  width: 30%;
+  width: 100%;
 }
 
 #navbarLower {
@@ -28,13 +31,24 @@ body {
   padding: 20px;
 }
 
-#header {
-  background: url(./images/B&W_bg.jpg) no-repeat;
+#bwImg{
+  background: url("./images/B&W_bg.jpg") no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-weight: lighter;
 }
 
 #promoText {
   color: white;
-  margin: 20px;
+  margin: 25px;
+  max-width: 700px;
 }
 
 #peakImage {
@@ -44,25 +58,35 @@ body {
 #mintCard {
   background-color: #35D3B4;
   border: 10px solid white;
-  box-shadow: 0px 0px 3px #fff inset, 0px 0px 8px #fff;
   color: white;
+  height: 225px;
+  margin: 5px;
   text-align: center;
 }
 
 #blueCard {
   background-color: #1B2191;
   border: 10px solid white;
-  box-shadow: 0px 0px 3px #fff inset, 0px 0px 8px #fff;
   color: white;
+  height: 225px;
+  margin: 5px;
   text-align: center;
 }
 
 #purpleCard {
   background-color: #D822EE;
   border: 10px solid white;
-  box-shadow: 0px 0px 3px #fff inset, 0px 0px 8px #fff;
   color: white;
+  height: 225px;
+  margin: 5px;
   text-align: center;
+}
+
+#whiteSpace {
+  height: 150px;
+  position: relative;
+  top: 100px;
+  z-index: 1;
 }
 
 footer {
